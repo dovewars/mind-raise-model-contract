@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+# Mind Raise Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project contains a simple ERC721 contract for implementing a 3D Model NFT, it includes a test for that contract, and a the ability to deploy that contract.
 
-Try running some of the following tasks:
+To run the test call the following:
 
 ```shell
-npx hardhat help
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
