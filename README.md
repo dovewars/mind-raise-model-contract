@@ -14,8 +14,9 @@ This project contains a simple ERC721 contract for implementing a 3D Model NFT, 
 
 **BASE_URI** - URL to your storage. The system expects there to be #.json files in there with # being the Token ID.
 
-## **To run the test call the following:**
+## **To run the test after downloading the respository, first set up the .env file, then call the following:**
 
 ```shell
+npm install
 npx hardhat test
 ```
