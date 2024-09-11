@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /// @custom:security-contact peter@mindraise.io
-contract MindRaiseModels is ERC721, ERC721Enumerable, ERC721URIStorage, ERC721Pausable, Ownable {
+contract MindRaiseModelFactory is ERC721, ERC721Enumerable, ERC721URIStorage, ERC721Pausable, Ownable {
     uint256 private _nextTokenId;
 
     constructor(address initialOwner)
